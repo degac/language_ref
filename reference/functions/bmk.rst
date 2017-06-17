@@ -24,10 +24,10 @@ Valid options for makeapp are:
 ]
 Some examples of makeapp in action:
  
-	.. code-block:: blitzmax
- 
-bmk makeapp myapp.bmx
-bmk makeapp -a -r -o myapp_release myapp.bmx
+.. code-block:: blitzmax
+	 
+	bmk makeapp myapp.bmx
+	bmk makeapp -a -r -o myapp_release myapp.bmx
  
 Note that the debug, release, single threaded and multithreaded options allow for 4 'types' of applications:
 * Debug, single threaded (this is the default)
@@ -47,10 +47,10 @@ Valid options for makemods are:
 ]
 Some examples of makemods in action:
  
-	.. code-block:: blitzmax
- 
-bmk makemods mymods
-bmk makemods -a mymods.testmod
+.. code-block:: blitzmax
+	 
+	bmk makemods mymods
+	bmk makemods -a mymods.testmod
  
 Zapmod
 ======
@@ -58,16 +58,16 @@ The Zapmod operation compresses a module into a single '.zap' file.
 Zapmod takes 2 arguments - the module to zap, and the name of the output file.
 For example:
  
-	.. code-block:: blitzmax
- 
-bmk zapmod mymods.testmod testmod.zap
+.. code-block:: blitzmax
+	 
+	bmk zapmod mymods.testmod testmod.zap
  
 UnzapMod
 ========
 Unzapmod installs a module previously zapped with 'Zapmod'.
 Unzapmod takes 1 argument - the module zap file to unzap. Note that any matching existing module will be overwritten by this operation. For example:
  
-	.. code-block:: blitzmax
- 
-bmk unzapmod testmod.zap
+.. code-block:: blitzmax
+	 
+	bmk unzapmod testmod.zap
  
