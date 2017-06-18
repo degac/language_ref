@@ -2,7 +2,7 @@
 Comments
 ========
 Comments are chunks of text in your program code that are ignored by the compiler, but are there to remind you how the code works.
-**BlitzMax** support single line comments using the **'** character - for example:
+BlitzMax support single line comments using the @' character - for example:
  
 .. code-block:: blitzmax
 	 
