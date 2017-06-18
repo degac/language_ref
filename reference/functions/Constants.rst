@@ -7,7 +7,7 @@ The general syntax for declaring a constant is:
  
 .. code-block:: blitzmax
 	 
-	**Const** %Identifier **:** %Type **=** %ConstantExpression
+	Const Identifier : Type = ConstantExpression
  
 For example:
  
