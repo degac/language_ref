@@ -17,6 +17,6 @@ For example:
 	Const SCALE_FACTOR:Float=1.5
 	Const DEFAULT_TITLE:String="Mark Sibly"
  
-Multiple constants may be declared per ''Const'' statement using the comma separator.
+Multiple constants may be declared per ``Const`` statement using the comma separator.
 If no type is provided for a constant, the constant defaults to being of type #Int.
 The initial value for a constant may be an expression, but the expression must itself be constant - it may only use other constants or literals and may not use any variables.
