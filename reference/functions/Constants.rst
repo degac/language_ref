@@ -4,9 +4,11 @@ Constants
 Constants can be used to store values that don't change during the execution of your program.
 Constants must be declared in your program before use with the #Const command. Declaring a constant means defining a name, type and initial value for it.
 The general syntax for declaring a constant is:
-{
-**Const** %Identifier **:** %Type **=** %ConstantExpression
-**
+ 
+.. code-block:: blitzmax
+	 
+	**Const** %Identifier **:** %Type **=** %ConstantExpression
+ 
 For example:
  
 .. code-block:: blitzmax
