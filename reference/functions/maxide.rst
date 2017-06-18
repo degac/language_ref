@@ -1,8 +1,10 @@
 ================
+The BlitzMax IDE
 ================
 The BlitzMax IDE is an application used for editing source code files and building projects. IDE stands for 'integrated development environment'.
 The BlitzMax IDE operates very much like a text editor or word processor.
  
+Getting started
 ===============
 Ok, time to compile and run your first program!
 First, select @New from the file menu or toolbar. This will create a new, empty source file for you to work with.
@@ -62,6 +64,7 @@ If you run this, you should see the following error message:
 Note how the pane on the right has also switched to the 'Debug' pane. This means your program is in 'debug mode',
 and by navigating through the debug pane you can inspect your programs variables.
  
+The File menu
 =============
 [ @{Menu Item} | @Action
 * New | Create a new source file.
@@ -91,6 +94,7 @@ and by navigating through the debug pane you can inspect your programs variables
 * Exit | Close down and exit the IDE.
 ]
  
+The Edit menu
 =============
 [ @{Menu Item} | @Action
 * Undo | Undo most recent source file edit.
@@ -115,6 +119,7 @@ and by navigating through the debug pane you can inspect your programs variables
 * Goto Line | Go to a line in the current source file.
 ]
  
+The Program menu
 ================
 [ @{Menu Item} | @Action
 * Build | Build the current source file (or locked build file).
@@ -143,6 +148,7 @@ and by navigating through the debug pane you can inspect your programs variables
 * Document Modules | Rebuild module documentation.
 ]
  
+The Help menu
 =============
 [ @{Menu Item} | @Action
 * Home | Go to the help home page.
